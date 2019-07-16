@@ -1,0 +1,45 @@
+<Grid Margin="0, 5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="1.8*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            FontAttributes="Bold"
+                            FontSize="Large"
+                            VerticalOptions="Center"
+                            Text="Email">
+                        </Label>
+
+                        <Entry
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Keyboard="Email"
+                            Text="{Binding Email, Mode=TwoWay}"
+                            Placeholder="Enter your Email....">
+
+                        </Entry>
+
+                        <Label 
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            FontAttributes="Bold"
+                            FontSize="Large"
+                            Text="Password"
+                            VerticalOptions="Center">
+                        </Label>
+
+                        <Entry
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            IsPassword="True"
+                            Keyboard="Email"
+                            Text="{Binding Password, Mode=TwoWay}"
+                            Placeholder="Enter your Password....">
+
+                        </Entry>
+
+                    </Grid>

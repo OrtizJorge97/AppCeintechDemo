@@ -1,0 +1,6 @@
+//this code truncates decimals after the dot for example 0.312356432124 to 0.31
+
+(float)System.Math.Round((double)numberwithmanydecimals, (int)decimals to be truncated)
+
+example
+(float)System.Math.Round(0.3115168465987, 2)
